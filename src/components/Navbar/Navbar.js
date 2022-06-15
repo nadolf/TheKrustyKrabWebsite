@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <Container maxWidth="xl">
     <Toolbar disableGutters>
-    <a href='https://www.google.com/'><img src={Logo} alt='The Krusty Krabs'/></a>
+    <a href='/'><img src={Logo} alt='The Krusty Krabs'/></a>
       <Typography
         variant="h6"
         noWrap
