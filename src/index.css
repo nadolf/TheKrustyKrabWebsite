@@ -2,6 +2,7 @@ body {
   font-family: 'Dancing Script', cursive;
   font-family: 'Slackey', cursive;
   font-size: xx-large;
+  margin: 0;
 }
 p {
   font-size: large;
@@ -40,4 +41,9 @@ p {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
+}
+.bottom-centered {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }

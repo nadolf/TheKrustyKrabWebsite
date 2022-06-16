@@ -11,7 +11,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Logo from '../Navbar/Logo.png';
 import {Link} from 'react-router-dom';
 
-const pages = ['Menu', 'Gallery', 'Order'];
+const pages = ['Menu', 'Gallery', 'Reserve'];
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
