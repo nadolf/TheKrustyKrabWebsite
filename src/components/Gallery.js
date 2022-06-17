@@ -1,4 +1,5 @@
 import React from 'react'
+import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
@@ -56,11 +57,15 @@ const galleryPhotos = [  {
 ];
 const Gallery = () => {
   return (
-    <>
-    <div className='centered'>Gallery</div>
-    <br/>
-    <div>
-    <ImageList sm={{ width: 1500, height: 500}} cols={6} rowWeight={164}>
+    <div id='Gallery'>
+    <Box
+    sx={{
+      height: 180,
+      backgroundColor: 'White',
+    }}
+  />
+    <div className='centered' style={{marginTop:-70}}>Gallery</div>
+    <ImageList style={{marginTop:50}} sm={{ width: 1500, height: 500}} cols={6} rowWeight={164}>
     {galleryPhotos.map((item) => (
       <ImageListItem key={item.img}>
         <img
@@ -72,8 +77,7 @@ const Gallery = () => {
       </ImageListItem>
     ))}
   </ImageList>
-  </div>
-  </>
+    </div>
   )
 }
 

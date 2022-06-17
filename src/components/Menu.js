@@ -1,17 +1,21 @@
 import { Grid } from '@mui/material'
 import MenuPic1 from '../photos/Krabby-Patty-PNG-Image.png';
+import Box from '@mui/material/Box';
 import React from 'react'
 
 const Menu = () => {
   return (
-    <>
-    <>
-      <body  className='centered' style={{color:'#6F201A'}}>GALLEY GRUB</body>
-      <img className='bottom-right' src={MenuPic1} alt='Krabby Patty'/>
-    </>
-    <div>
-          <Grid container marginTop={7} >
-          <Grid marginLeft={'33%'} xs={12} sm={3}>        
+    <div id='Menu'>
+    <Box
+    sx={{
+      height: 90,
+      backgroundColor: '#FEF9E7',
+    }}
+  />
+    <Box  backgroundColor='#FEF9E7' >
+      <body  className='centered' style={{color:'#6F201A'}}>GALLEY GRUB</body> 
+          <Grid container>
+          <Grid marginLeft={'33%'} marginTop={'7%'} xs={12} sm={3}>        
           <p>KRABBY PATTY</p>
           <p>&nbsp;-w/ Sea Cheese</p>
           <p>DOUBLE KRABBY PATTY</p>
@@ -23,7 +27,7 @@ const Menu = () => {
           <p>KELP RINGS</p>
           <p>&nbsp;-Salty Sauce</p>
           </Grid>
-          <Grid xs={12} sm={3}>
+          <Grid marginTop={'7%'} xs={12} sm={3}>
           <p>KRABBY MEAL</p>
           <p>DOUBLE KRABBY MEAL</p>
           <p>TRIPLE KRABBY MEAL</p>
@@ -34,10 +38,14 @@ const Menu = () => {
           <p>&nbsp;-Small</p>
           <p>&nbsp;-Medium</p>
           <p>&nbsp;-Large</p>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
+          <div>&nbsp;</div>
           </Grid>
-        </Grid>      
+        </Grid>    
+          <img className='menu-img' src={MenuPic1} alt='Krabby Patty'/>
+         </Box>     
     </div>
-    </>
   )
 }
 
