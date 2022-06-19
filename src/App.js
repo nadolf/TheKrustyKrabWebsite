@@ -1,14 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import { 
-  Routes,
-  Route,
-} from 'react-router-dom';
 import Navbar from "./components/Navbar/Navbar";
 import Menu from './components/Menu';
 import Gallery from './components/Gallery';
 import Reserve from './components/Reserve';
 import Home from './components/Home';
-import ReservationForm from './components/ReservationForm';
 import LoadingPage from './components/LoadingPage';
 
 export default function App() {
@@ -31,11 +26,8 @@ export default function App() {
       <Menu/>
       <Reserve/>
       <Gallery/>
-      <Routes>
-    </Routes>
     </header>        
       }
-
     </div>
   );
 }

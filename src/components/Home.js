@@ -23,7 +23,7 @@ const Home = () => {
     <img className='bottom-right' src={image4} alt=' '/>
     <p className='centered'><br/>Home of the Krabby Patty</p>
     <img className='bottom-centered' src={image5} alt=' '/>
-    <a href='/Menu'><Button style={{margin:300}}></Button></a>
+    <Button style={{margin:300}}></Button>
     </div>
   )
 }

@@ -103,7 +103,7 @@ p {
 .bottom-centered {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 70%);
 }
 .reservepic1{
   position: absolute;
@@ -118,9 +118,15 @@ p {
 .reservebtn {
   position: absolute;
   left: 70%;
-  transform: translate(-50%, 900%);
+  transform: translate(70%, 100%);
 }
 .reservetxt{
-  left: -20%;
-  transform: translate( 55%, 500%);
+  margin-left: 37%;
+  transform: translate( 0%, 470%);
+}
+.reserve{
+  margin-left: 70%;
+  margin-top: 20%;
+  Color: white;
+  
 }
