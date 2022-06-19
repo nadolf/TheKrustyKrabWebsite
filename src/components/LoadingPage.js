@@ -1,10 +1,10 @@
 import React from 'react'
-import Loader from '../photos/loading.gif'
+import Bubbles from '../photos/loading.gif'
 
 function LoadingPage() {
   return (
     <div style={{ backgroundImage: "url(/BackgroundLoading.jpg)"}}>
-    <img src={Loader} width={'100%'} alt='Krabby Patty'/>        
+    <img src={Bubbles} width={'100%'} alt='Bubbles'/>        
     </div>
   )
 }

@@ -9,7 +9,7 @@ import image5 from '../photos/KrabbyPatty.png'
 
 const Home = () => {
   return (
-  <div id=''>
+  <div>
     <Box
     sx={{
       height: 150,
@@ -17,12 +17,12 @@ const Home = () => {
     }}
   />
     <body className='centered'>Welcome to The Krusty Krab </body>
-    <img className='bottom-left' src={image} alt=' '/>
-    <img className='top-right' src={image2} alt=' '/>
-    <img className='centered'src={image3} alt=' '/>
-    <img className='bottom-right' src={image4} alt=' '/>
+    <img className='bottom-left' src={image} alt='flower1'/>
+    <img className='top-right' src={image2} alt='flower2'/>
+    <img className='centered'src={image3} alt='flower3'/>
+    <img className='bottom-right' src={image4} alt='flower4'/>
     <p className='centered'><br/>Home of the Krabby Patty</p>
-    <img className='bottom-centered' src={image5} alt=' '/>
+    <img className='bottom-centered' src={image5} alt='KrabbyPatty'/>
     <Button style={{margin:300}}></Button>
     </div>
   )

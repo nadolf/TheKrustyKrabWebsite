@@ -49,23 +49,37 @@ const galleryPhotos = [  {
   },
   {
     img: 'https://static2.srcdn.com/wordpress/wp-content/uploads/2021/02/Squilliam-Returns.jpg?q=50&fit=crop&w=963&h=481&dpr=1.5',
-    title: '5 star Krusty Krab',
+    title: '5-star Krusty Krab',
   },
-
-
-
+  {
+    img: 'https://64.media.tumblr.com/79f92cfa86964ab9841c4693876f467c/tumblr_pjiwfocaVt1ujuaoj_400.jpg',
+    title: 'Pretty Patties',
+  },
+  {
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBG2s0X-QmlJApu42uczZnXB1fzcIiewsAvz4g2qvW6yDiNR_CYahQRVfPl-tBVtcjyc&usqp=CAU',
+    title: 'Meal',
+  },
+  {
+    img: 'http://media.sbmania.net/pictures/39a/154.png',
+    title: 'Jelly Krabby Patty',
+  },
+  {
+    img: 'https://i.ytimg.com/vi/ZtEz69NawT0/maxresdefault.jpg',
+    title: 'Krabby Patty Supreme',
+  },
 ];
+
 const Gallery = () => {
   return (
     <div id='Gallery'>
     <Box
     sx={{
-      height: 180,
+      height: 210,
       backgroundColor: 'White',
     }}
   />
-    <div className='centered' style={{marginTop:-70}}>Gallery</div>
-    <ImageList style={{marginTop:50}} sm={{ width: 1500, height: 500}} cols={6} rowWeight={164}>
+    <div className='centered' style={{marginTop:-90}}>Gallery</div>
+    <ImageList style={{marginTop:50}} sx={{ width: 1000, height: 450, marginLeft:'20%' }} cols={4} rowHeight={200}>
     {galleryPhotos.map((item) => (
       <ImageListItem key={item.img}>
         <img

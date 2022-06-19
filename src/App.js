@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import Menu from './components/Menu';
 import Gallery from './components/Gallery';
-import Reserve from './components/Reserve';
+import Reserve from './components/Reservation';
 import Home from './components/Home';
 import LoadingPage from './components/LoadingPage';
 
