@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TheKrustyKrabWebsite/static/css/main.1199352a.css",
+    "main.js": "/TheKrustyKrabWebsite/static/js/main.1dbaedd4.js",
+    "static/js/787.56404a30.chunk.js": "/TheKrustyKrabWebsite/static/js/787.56404a30.chunk.js",
+    "static/media/flower1.png": "/TheKrustyKrabWebsite/static/media/flower1.bef95e44b1c53697e03b.png",
+    "static/media/flower2.png": "/TheKrustyKrabWebsite/static/media/flower2.473da0cea4ce9c74432a.png",
+    "static/media/KrabbyPatty.png": "/TheKrustyKrabWebsite/static/media/KrabbyPatty.a6435760aefb0e9e3455.png",
+    "static/media/reservepic.png": "/TheKrustyKrabWebsite/static/media/reservepic.8f06dae2fefe321e6245.png",
+    "static/media/loading.gif": "/TheKrustyKrabWebsite/static/media/loading.610c334af8fb361b5aee.gif",
+    "static/media/flower4.png": "/TheKrustyKrabWebsite/static/media/flower4.7aec58c7c46802b65aec.png",
+    "static/media/Logo.png": "/TheKrustyKrabWebsite/static/media/Logo.fcd1c6f495a37200566f.png",
+    "static/media/Krabby-Patty-PNG-Image.png": "/TheKrustyKrabWebsite/static/media/Krabby-Patty-PNG-Image.1aa3e2142c1bc036e707.png",
+    "static/media/reservepic3.gif": "/TheKrustyKrabWebsite/static/media/reservepic3.8af16df86b7ac5410712.gif",
+    "static/media/flower3.png": "/TheKrustyKrabWebsite/static/media/flower3.c7e1c74d1b548d85b90c.png",
+    "index.html": "/TheKrustyKrabWebsite/index.html",
+    "main.1199352a.css.map": "/TheKrustyKrabWebsite/static/css/main.1199352a.css.map",
+    "main.1dbaedd4.js.map": "/TheKrustyKrabWebsite/static/js/main.1dbaedd4.js.map",
+    "787.56404a30.chunk.js.map": "/TheKrustyKrabWebsite/static/js/787.56404a30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1199352a.css",
+    "static/js/main.1dbaedd4.js"
+  ]
+}
