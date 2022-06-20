@@ -1,6 +1,6 @@
 import React from 'react'
 import * as Yup from 'yup'
-import { Grid, TextField, Button} from '@mui/material'
+import { Grid, TextField, Button, Box, Typography, Modal} from '@mui/material'
 import { Formik,Field,Form} from 'formik';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import InputLabel from '@mui/material/InputLabel';
@@ -33,6 +33,19 @@ const ReservationForm = () => {
     const handleChange2 = (event) => {
         setPeople(event.target.value);
       };
+      const style = {
+        position: 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        width: 400,
+        bgcolor: 'white',
+        boxShadow: 10,
+        p: 4,
+      };
+      const [open, setOpen] = React.useState(false);
+      const handleOpen = () => setOpen(true);
+      const handleClose = () => setOpen(false);
 
   return (
     <Grid container>
@@ -74,7 +87,22 @@ const ReservationForm = () => {
                                     <MenuItem value={'eightplus'}>8+</MenuItem>
                                     </Select>
                                     </FormControl>
-                                    <Button  type='submit' variant='contained' disabled={props.isSubmitting}  style={{color:'white', backgroundColor:'black',width:'70%'}}>{props.isSubmitting ? "Loading" : "Reserve"}</Button>
+                                    <Button type='submit' variant='contained' disabled={props.isSubmitting} style={{color:'white', backgroundColor:'black',width:'70%'}} onClick={handleOpen}>{props.isSubmitting ? "Loading" : "Reserve"}</Button>
+                                    <Modal
+                                        open={open}
+                                        onClose={handleClose}
+                                        aria-labelledby="modal-title"
+                                        aria-describedby="modal-text"
+                                    >
+                                        <Box sx={style}>
+                                        <Typography id="modal-title" align='center' variant="header" component="h5">
+                                            Thank You!
+                                        </Typography>
+                                        <Typography id="modal-text" align='center' sx={{ mt: 2 }}>
+                                            You have reserved a table at the 5-star Krusty Krab.<br/> See you soon :)
+                                        </Typography>
+                                        </Box>
+                                    </Modal>
                             </Stack>
                         </Form>
                     )}
